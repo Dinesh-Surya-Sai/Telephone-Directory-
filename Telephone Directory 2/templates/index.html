@@ -1,0 +1,84 @@
+
+<marquee>
+  <div class="animated_rainbow_2"> Welcome to  Telephone Directory </div>
+
+<style>
+.animated_rainbow_2 {
+	font-size: 42px;
+	font-family: Arial Black, Gadget, sans-serif;
+    -webkit-animation: animatedBackground_b 5s linear infinite alternate;
+}
+
+@keyframes animatedBackground_b{
+	0% {color: #ff8b00}
+	10% {color: #e8ff00}
+	20% {color: #5dff00}
+	30% {color: #00ff2e}
+	40% {color: #00ffb9}
+	50% {color: #00b9ff}
+	60% {color: #002eff}
+	70% {color: #5d00ff}
+	80% {color: #e800ff}
+	90% {color: #ff008b}
+	100% {color: #ff0000}
+}
+
+</style>
+
+
+  </marquee>
+
+
+
+
+
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+
+
+<!-- HEADER -->
+
+
+<nav class="navbar ">
+  <div class="container-fluid">
+
+
+    <a href="{{url_for('index')}}">
+    <button type="button" class="btn btn-success  float-right">Home</button>
+    </a>
+
+    <a href="{{url_for('create')}}">
+    <button type="button" class="btn btn-success  float-right">Create</button>
+    </a>
+
+    <a href="{{url_for('display')}}">
+      <button type="button" class="btn btn-success ">Display</button>
+    </a>
+
+    <a href="{{url_for('search')}}">
+      <button type="button" class="btn btn-success ">Search</button>
+    </a>
+
+
+
+
+      </div>
+    </nav>
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body background = 'static/image45.avif'>
+
+
+
+
+
+  </body>
+</html>

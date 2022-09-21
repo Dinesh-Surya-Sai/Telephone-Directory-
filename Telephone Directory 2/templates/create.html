@@ -1,0 +1,35 @@
+{% include 'index.html' %}
+{% block bobyy %}
+
+
+<img src="{{url_for('static',filename="img2.jfif")}}" alt="">
+	<div class="container">
+		<div class="row">
+			<div class="col md-6">
+				<div class="jumbotron p-3">
+					<div class="modal-header">
+						<h4 class="modal-title">Add a new contact</h4>
+	 				</div>
+					<form action="{{url_for('create')}}"method="post"><br>
+						<div class="form-group">
+							<label>Enter your name: </label>
+								<input type="text" class="form-control" name="name">
+						</div>
+						<div class="form-group">
+							<label>Enter your number: </label>
+								<input type="text" class="form-control" name="number"> <br> <br>
+						</div>
+						<div class="modal-footer">
+							<button class="btn btn-primary" type="submit">Create</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+{%  endblock %}
