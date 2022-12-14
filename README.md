@@ -15,3 +15,8 @@ The Telephone Directory consists of three major Functions. there are Create, Dis
 2 - Display Function:- It should represent the names and numbers which the user had created in Create function in a tabular format  
 
 3 - Search Function:- It should represent the data present in the display function. First, it will ask the name to check whether the name exists in the dictionary or not. If the name is present in the dictionary then it shows the name and number otherwise it throws an error like Name not exists
+
+How to run the code:
+1. install flask on the computer ( open command prompt and type " pip install flask " )
+2. open cmd on the file location 
+3. type python app.py to run the code then it will gives a link on the cmd copy and paste it on the browser
